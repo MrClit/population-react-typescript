@@ -1,5 +1,5 @@
 import classes from './TableView.module.css'
-import {OutputPopulationItem} from "../utils/http.ts";
+import {OutputPopulationItem} from "../utils/types.ts";
 
 type TableViewProps = {
   data: OutputPopulationItem[];
