@@ -1,0 +1,87 @@
+/* Contenedor principal */
+.container {
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Estilo del formulario */
+.form {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* Etiqueta */
+.label {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333;
+    margin-right: 0.5rem;
+}
+
+/* Campo de entrada */
+.input {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 20rem;
+    transition: border-color 0.3s;
+}
+
+.input:focus {
+    border-color: #1abc9c;
+    outline: none;
+}
+
+/* Botón principal: Filter */
+.btn {
+    background-color: #101585; /* Navy Blue */
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #0D1440; /* Oxford Blue */
+    transform: translateY(-1px);
+}
+
+.btn:active {
+    background-color: #080F2E; /* Más oscuro */
+    transform: translateY(0);
+}
+
+.btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Botón secundario: Clear */
+.clearBtn {
+    background-color:#D58D8D; /* Muted Rose */
+}
+
+.clearBtn:hover {
+    background-color: #B06A6A; /* Dusty Rose */
+}
+
+.clearBtn:active {
+    background-color: #8A5050; /* Más oscuro */
+}
+
+.clearBtn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.error {
+    color: #e74c3c; /* Rojo para errores */
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
